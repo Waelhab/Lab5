@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeaea;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.stats-wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#player-search {
+    padding: 12px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    width: 220px;
+}
+
+#filter-by-team {
+    padding: 12px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    width: 160px;
+}
+
+.filter-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    user-select: none;
+}
+
+#theme-switcher {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#theme-switcher:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #ccc;
+}
+
+.dark-mode table {
+    border-color: #444;
+}
+
+.dark-mode th,
+.dark-mode td {
+    border-color: #444;
+    background-color: #2a2a2a;
+}
+
+.dark-mode #theme-switcher {
+    background-color: #ff9800;
+}
+
+.dark-mode #theme-switcher:hover {
+    background-color: #e65100;
+}

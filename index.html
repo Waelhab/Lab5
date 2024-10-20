@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Statistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="stats-wrapper">
+        <header class="header-section">
+            <h1>NBA Player Performance</h1>
+            <button id="theme-switcher">Switch Theme</button>
+        </header>
+
+        <div class="filter-controls">
+            <input type="text" id="player-search" placeholder="Find a player...">
+            <select id="filter-by-team">
+                <option value="all">Show All Teams</option>
+                <!-- Teams will dynamically appear here via JS -->
+            </select>
+        </div>
+
+        <section class="stats-table-section">
+            <table id="nba-player-stats">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Team Name</th>
+                        <th>Points Per Game</th>
+                        <th>Rebounds Per Game</th>
+                        <th>Assists Per Game</th>
+                    </tr>
+                </thead>
+                <tbody id="stats-content">
+                    <!-- Player data will be injected here -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
